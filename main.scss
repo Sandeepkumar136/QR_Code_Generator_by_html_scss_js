@@ -41,6 +41,7 @@ body{
     font-size: 1rem;
     color: #fff;
     border-radius: 10px;
+    text-transform: capitalize;
 
 }
 ::placeholder{
@@ -69,4 +70,18 @@ body{
     background-color: #0006b3;
     color: #000;
 }
-
+#img_qr{
+    width: 270px;
+    height: 270px;
+    margin-top: 1rem;
+}
+@media only screen and (max-width: 320px) {
+    .container{
+        padding: 0.5rem;
+    }
+    #img_qr{
+        width: 200px;
+        height: 200px;
+        padding-bottom: 1rem;
+    }
+}
